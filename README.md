@@ -7,3 +7,6 @@ Atlassian Confluence Stylus RTL style for persian, arabic and other RTL language
 
 *note:* All your team members should use Stylus or else they will see documents in LTR and it's messy.
 This code doesn't edit Confluence styles but it overrides it on browser level.
+
+
+Thanks to [@imojtaba](https://github.com/iMojtaba) for his great contribution.
