@@ -1,0 +1,32 @@
+body#tinymce.page-edit,
+body#tinymce.template-edito,
+#content-title,
+#preview-header #title-text,
+#content,
+#title-text,
+body.mceContentBody,
+.codeHeader.panelHeader.pdl,
+.page-metadata {
+    direction: rtl;
+    text-align: right;
+}
+div.panel.pdl,
+pre,
+div#editor-precursor,
+#rte-toolbar .aui-button, #rte-savebar .aui-button{
+    direction: ltr;
+    text-align: left;
+}
+.page-metadata ul li {
+    float: right;
+    padding: 0 0 0 5px;
+}
+.invite-to-edit-button~#avatar-list {
+    right: 25px;
+}
+.confluenceTh, .confluenceTd{
+    text-align: right
+}
+table.aui>thead>tr>th, table.aui>tbody>tr>th, table.aui>thead>tr>td, table.aui>tbody>tr>td, table.aui>tfoot>tr>td {
+    text-align:right;
+}
