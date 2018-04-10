@@ -43,6 +43,6 @@ table.aui>thead>tr>th, table.aui>tbody>tr>th, table.aui>thead>tr>td, table.aui>t
 div.plugin_pagetree ul.plugin_pagetree_children_list>li>div.plugin_pagetree_childtoggle_container {
     float: right;
 }
-.aui-icon-small::before, .aui-icon-large::before {
+div.plugin_pagetree .plugin_pagetree_childtoggle_container>.aui-icon::before {
     transform: rotate(180deg);
 }
