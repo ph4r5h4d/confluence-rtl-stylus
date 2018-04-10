@@ -30,3 +30,19 @@ div#editor-precursor,
 table.aui>thead>tr>th, table.aui>tbody>tr>th, table.aui>thead>tr>td, table.aui>tbody>tr>td, table.aui>tfoot>tr>td {
     text-align:right;
 }
+
+.acs-side-bar-content {
+    direction: rtl;
+    text-align: right;
+}
+.acs-nav-item .acs-nav-item-label {
+    margin-right: 10px;
+    margin-left: 0;
+
+}
+div.plugin_pagetree ul.plugin_pagetree_children_list>li>div.plugin_pagetree_childtoggle_container {
+    float: right;
+}
+.aui-icon-small::before, .aui-icon-large::before {
+    transform: rotate(180deg);
+}
