@@ -46,3 +46,20 @@ div.plugin_pagetree ul.plugin_pagetree_children_list>li>div.plugin_pagetree_chil
 div.plugin_pagetree .plugin_pagetree_childtoggle_container>.aui-icon::before {
     transform: rotate(180deg);
 }
+
+.grouped ul, .grouped ol {
+    padding-right: 0;
+}
+#insert-menu .aui-dropdown a {
+    padding: 4px 8px 4px 50px
+}
+.aui-toolbar .icon {
+    float: right;
+}
+#insert-menu .aui-dropdown .icon {
+    margin: 1px 0 0 4px;
+}
+#toolbar .aui-toolbar2 .aui-buttons.no-separator .aui-dd-parent>a.aui-dd-trigger:after {
+    margin-left: 0;
+    margin-right: 20px
+}
